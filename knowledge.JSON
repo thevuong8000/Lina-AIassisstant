@@ -1,0 +1,38 @@
+{"intents": [
+	{
+		"tag": "dumb",
+		"patterns": [],
+		"responses": ["Sorry I'm not intelligent enough to answer this!", "Sorry I don't understand!", "I don't know! Please google if possible"]
+	},
+	{
+		"tag": "greeting",
+		"patterns": ["how's it going", "hello", "hi ", "whats up"],
+		"responses": ["Hello!", "Hi there, how can I help you?", "Xin Chào"]
+	},
+	{
+		"tag": "name",
+		"patterns": ["who are you", "what are you"],
+		"responses": ["I'm Lina. I was created by Katorin."]
+	},
+	{
+		"tag": "owner",
+		"patterns": ["who create you"],
+		"responses": ["Katorin", "I am Katorin's intelligence"]
+	},
+	{
+		"tag": "owner infomation",
+		"patterns": ["who is katorin", "who is your owner", "owner"],
+		"responses": ["He is Katorin, he is private, he is mystery."]
+	},
+	{
+		"tag": "ending",
+		"patterns": ["bye", "see you later", "see ya"],
+		"responses": ["Bye", "Thanks for talking!", "Hope to see you again!", "Goodbye", "Nice talk"]
+	},
+	{
+		"tag": "opening",
+		"patterns": ["can you hear me", "everything's good","everything is good"],
+		"responses": ["I'm listening!", "I'm waiting for your voice!"]
+	}
+]
+}
